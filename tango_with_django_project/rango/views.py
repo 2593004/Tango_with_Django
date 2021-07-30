@@ -19,7 +19,7 @@ def index(request):
     
     visitor_cookie_handler(request)
 
-    return render(request, 'rango/index.html', context=context_dict)
+    return render(request,'rango/index.html', context=context_dict)
 
 def about(request):
     # Spoiler: now you DO need a context dictionary!
